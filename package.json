@@ -1,0 +1,17 @@
+{
+  "name": "e2j-weblio",
+  "version": "1.0.0",
+  "description": "Translate from English to Japanese by Weblio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tamamu",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio-httpcli": "^0.6.8"
+  },
+  "bin": {
+	"e2j": "app.js"
+  }
+}
